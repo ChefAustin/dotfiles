@@ -1,0 +1,8 @@
+busy-signal
+intentions
+language-powershell
+linter
+linter-jsonlint
+linter-rubocop
+linter-ui-default
+plist-converter
