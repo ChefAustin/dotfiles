@@ -64,7 +64,8 @@ defaults write com.divisiblebyzero.Spectacle.plist StatusItemEnabled -bool false
 mkdir -p -v ~/workspace/personal ~/workspace/third_party
 # Append customizations/aliases to .bash_profile
 cat ./.bash_profile >> ~/.bash_profile
-
+# Install Oh my Zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
 

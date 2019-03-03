@@ -34,6 +34,8 @@ brew 'telnet'
 brew 'the_silver_searcher'
 brew 'tree'
 brew 'wget'
+brew 'zsh'
+brew 'zsh-completions'
 
 #### Install cask fonts
 cask 'font-meslo-for-powerline'
