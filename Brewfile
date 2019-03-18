@@ -4,6 +4,7 @@ cask_args appdir: '/Applications'
 
 #### Tap into cask-fonts
 tap 'homebrew/cask-fonts'
+tap 'sambadevi/powerlevel9k'
 
 #### Install brew packages
 brew 'git'
@@ -28,12 +29,14 @@ brew 'libxml2'
 brew 'netcat'
 brew 'nmap'
 brew 'node'
+brew 'powerlevel9k'
 brew 'speedtest-cli'
 brew 'sqlite'
 brew 'telnet'
 brew 'the_silver_searcher'
 brew 'tree'
 brew 'wget'
+brew 'xz'
 brew 'zsh'
 brew 'zsh-completions'
 
