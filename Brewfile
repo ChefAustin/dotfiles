@@ -46,6 +46,7 @@ cask 'font-meslo-for-powerline'
 #### Install cask apps
 cask '1password'
 cask 'atom'
+cask 'autodmg'
 cask 'balenaetcher'
 cask 'docker'
 cask 'firefox'
