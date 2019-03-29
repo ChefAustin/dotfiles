@@ -39,7 +39,7 @@ defaults write com.apple.dock autohide -bool true
 
 ##### Ruby Environment
 # Gather rvm GPG keys
-gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+/usr/local/bin/gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 # Install rvm and source changes
 \curl -sSL https://get.rvm.io | bash -s stable --ruby --auto-dotfiles
 source ~/.rvm/scripts/rvm
@@ -57,7 +57,7 @@ defaults write com.divisiblebyzero.Spectacle.plist SUEnableAutomaticChecks -bool
 defaults write com.divisiblebyzero.Spectacle.plist StatusItemEnabled -bool false
 
 #### Install Atom packages
-/usr/local/bin/apm --packages-file ./Atomfile
+/usr/local/bin/apm install --packages-file ./Atomfile
 
 ## Miscellaneous
 # Home directory organization for projects
@@ -66,10 +66,22 @@ mkdir -p -v ~/workspace/personal ~/workspace/third_party
 cat ./.bash_profile >> ~/.bash_profile
 # Install Oh my Zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# Add-in Powerlevel9k zsh theme to zshrc
+echo "source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 
-
-
+# TODO: iTerm2 TCC Accessibility
+# TODO: iTerm2 Font == "12pt Meslo Lg S Regular for Powerline"
+# TODO: Firefox default browser
+# TODO: root shell to oh-my-zsh with same template config
+# TODO: Scaled resolution to "More Space"
+# TODO: Disable 'Show Mirroring Options in the menu bar when available'
+# TODO: Enable Firewall
+# TODO: Dock positioned on left
+# TODO: Automatically hide and show the menu bar
+# TODO: USe scroll gesture with modifier keys to zoom: ^Control
 
 # CONTEXT SWITCH (Put this last as a safeguard)
 # Enroll in Apple Developer beta seed program
 sudo /System/Library/PrivateFrameworks/Seeding.framework/Versions/A/Resources/seedutil enroll DeveloperSeed
+
+# TODO: Reboot

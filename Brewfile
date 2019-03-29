@@ -64,7 +64,10 @@ cask 'the-unarchiver'
 cask 'vagrant'
 cask 'vagrant-manager'
 cask 'vlc'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
+
+# TODO: Fails; kext-approval needed.
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
+
 cask 'wireshark'
 cask 'xquartz'
