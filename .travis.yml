@@ -2,4 +2,4 @@ language: shell
 os: osx
 os_image: xcode10.2
 
-script: entrypoint.sh
+script: bash entrypoint.sh
