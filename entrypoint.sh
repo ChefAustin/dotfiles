@@ -70,7 +70,7 @@ cat ./.bash_profile >> ~/.bash_profile
 # Install Oh my Zsh
 # sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # Add user-check and skip if == "travis"
 # Add-in Powerlevel9k zsh theme to zshrc
-echo "source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
+# echo "source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 
 # TODO: iTerm2 TCC Accessibility
 # TODO: iTerm2 Font == "12pt Meslo Lg S Regular for Powerline"
