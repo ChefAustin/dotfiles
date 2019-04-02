@@ -20,30 +20,17 @@ brew 'gdbm'
 brew 'glances'
 brew 'glib'
 brew 'gnupg2'
-
-# brew 'gnutls' # Test
-
-# brew 'go' # TODO: Favor package installer
-
 brew 'imagemagick'
 brew 'jq'
-
-# brew 'libgcrypt' # Test
-
 brew 'libunistring'
 brew 'libusb'
-
-# brew 'libxml2' # Test
-
 brew 'netcat'
 brew 'nmap'
 brew 'node'
 brew 'powerlevel9k'
+brew 'ripgrep'
 brew 'shellcheck'
 brew 'speedtest-cli'
-
-# brew 'sqlite' # Test
-
 brew 'telnet'
 brew 'the_silver_searcher'
 brew 'tree'
