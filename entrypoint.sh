@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-##### Satisfy initial dependencies
+###### Satisfy initial dependencies
 # Install Homebrew (we `echo |` to skirt prompt)
 echo | ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # Update Homebrew and formulae
