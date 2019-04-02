@@ -9,7 +9,7 @@ echo | ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 # Invoke Brewfile bootstrap
 /usr/local/bin/brew bundle
 # Clean up after oneself
-brew cleanup
+/usr/local/bin/brew cleanup
 
 
 ##### macOS preferences
@@ -68,7 +68,7 @@ mkdir -p -v ~/workspace/personal ~/workspace/third_party
 # Append customizations/aliases to .bash_profile
 cat ./.bash_profile >> ~/.bash_profile
 # Install Oh my Zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # Add user-check and skip if == "travis"
 # Add-in Powerlevel9k zsh theme to zshrc
 echo "source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 
@@ -85,6 +85,6 @@ echo "source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 
 # CONTEXT SWITCH (Put this last as a safeguard)
 # Enroll in Apple Developer beta seed program
-sudo /System/Library/PrivateFrameworks/Seeding.framework/Versions/A/Resources/seedutil enroll DeveloperSeed
+# sudo /System/Library/PrivateFrameworks/Seeding.framework/Versions/A/Resources/seedutil enroll DeveloperSeed # Test
 
 # TODO: Reboot
