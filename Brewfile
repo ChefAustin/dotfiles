@@ -39,6 +39,7 @@ brew 'netcat'
 brew 'nmap'
 brew 'node'
 brew 'powerlevel9k'
+brew 'shellcheck;'
 brew 'speedtest-cli'
 
 # brew 'sqlite' # Test
