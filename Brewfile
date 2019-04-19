@@ -5,6 +5,7 @@ cask_args appdir: '/Applications'
 #### Tap into cask-fonts
 tap 'homebrew/cask-fonts'
 tap 'sambadevi/powerlevel9k'
+tap 'wagoodman/dive'
 
 #### Install brew packages
 brew 'git'
@@ -12,6 +13,7 @@ brew 'bash-completion'
 brew 'brew-cask-completion'
 brew 'cowsay'
 brew 'dep'
+brew 'dive'
 brew 'dockutil'
 brew 'fswatch'
 brew 'fzf'
