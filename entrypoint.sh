@@ -71,15 +71,13 @@ cat ./.bash_profile >> ~/.bash_profile
 echo "source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme" >> ~/.zshrc
 
 # Install Oh my Zsh
-# sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # Add user-check and skip if == "travis"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh -l::g' | sed 's:chsh -s .*$::g')"
+ # Add user-check and skip if == "travis"
 
 # TODO: iTerm2 TCC Accessibility
-# TODO: iTerm2 Font == "12pt Meslo Lg S Regular for Powerline"
-# TODO: Firefox default browser
 # TODO: root shell to oh-my-zsh with same template config
 # TODO: Scaled resolution to "More Space"
 # TODO: Disable 'Show Mirroring Options in the menu bar when available'
 # TODO: Enable Firewall
 # TODO: Dock positioned on left
-# TODO: Automatically hide and show the menu bar
 # TODO: USe scroll gesture with modifier keys to zoom: ^Control
